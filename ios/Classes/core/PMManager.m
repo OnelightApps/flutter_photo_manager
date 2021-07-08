@@ -568,7 +568,7 @@
 - (void)fetchFullSizeImageFile:(PHAsset *)asset resultHandler:(NSObject <PMResultHandler> *)handler progressHandler:(NSObject <PMProgressHandlerProtocol> *)progressHandler {
   PHImageManager *manager = PHImageManager.defaultManager;
   PHImageRequestOptions *options = [PHImageRequestOptions new];
-  options.synchronous = YES;
+  options.synchronous = NO;
   options.version = PHImageRequestOptionsVersionCurrent;
 
 
