@@ -28,3 +28,5 @@ flutter:
         pluginClass: PhotoManagerPlugin
       ohos:
         pluginClass: PhotoManagerPlugin
+
+publish_to: https://onepub.dev/api/yononoflyg/
